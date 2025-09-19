@@ -160,3 +160,14 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.page-flex {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure main content grows to fill space */
+.page-flex main {
+  flex: 1;
+}
