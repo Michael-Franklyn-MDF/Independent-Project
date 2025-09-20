@@ -48,6 +48,67 @@ Captured Moments is a visually engaging photography portfolio site designed to s
  - **Achieved Objectives**
 - **Footer:** Social links or copyright
 
+## Wireframe (ASCII Art)
+
+Home Page:
++---------------------------------------------------+
+|                 Site Title / Nav                  |
+|  [Home] [Gallery] [About] [Design] [Contact]      |
++-------------------+-------------------------------+
+|                   |                               |
+|   Photo Gallery   |    Short Biography/About      |
+|   (Grid layout)   |    (Text, maybe a portrait)   |
+|                   |                               |
++-------------------+-------------------------------+
+|                    Footer                         |
++---------------------------------------------------+
+
+Gallery Page:
++---------------------------------------------------+
+|                 Site Title / Nav                  |
+|  [Home] [Gallery] [About] [Design] [Contact]      |
++---------------------------------------------------+
+|         Favorite Images (Grid, 3 columns)         |
++---------------------------------------------------+
+|         Gallery Collection (Grid, 3 columns)      |
++---------------------------------------------------+
+|                    Footer                         |
++---------------------------------------------------+
+
+About Page:
++---------------------------------------------------+
+|                 Site Title / Nav                  |
+|  [Home] [Gallery] [About] [Design] [Contact]      |
++---------------------------------------------------+
+|        In-depth About/Description Section         |
++---------------------------------------------------+
+|                    Footer                         |
++---------------------------------------------------+
+
+
+Contact Page:
++---------------------------------------------------+
+|                 Site Title / Nav                  |
+|  [Home] [Gallery] [About] [Design] [Contact]      |
++---------------------------------------------------+
+|                Contact Form Section               |
++---------------------------------------------------+
+|                    Footer                         |
++---------------------------------------------------+
+
+Design Page:
++---------------------------------------------------+
+|                 Site Title / Nav                  |
+|  [Home] [Gallery] [About] [Design] [Contact]      |
++---------------------------------------------------+
+|         Embedded Design Document (iframe)         |
++---------------------------------------------------+
+|         Achieved Objectives Section               |
++---------------------------------------------------+
+|                    Footer                         |
++---------------------------------------------------+
+```
+
 
 ## Visual Style
 - Clean, modern, and minimalistic
@@ -63,6 +124,9 @@ Captured Moments is a visually engaging photography portfolio site designed to s
 - Primary: #4a4e69
 - Secondary: #9a8c98
 - Text: #22223b
+
+## Githhub pages
+- https://github.com/Michael-Franklyn-MDF/Independent-Project
 
 ## Copyright & License
 
