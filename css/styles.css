@@ -180,3 +180,34 @@ footer a:hover {
 .page-flex main {
   flex: 1;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+}
+
+@media screen and (min-width: 1025px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+  
+}

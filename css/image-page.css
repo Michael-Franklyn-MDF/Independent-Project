@@ -132,3 +132,37 @@ footer a:hover {
 .page-flex main {
   flex: 1;
 }
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+  .image-detail-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .image-detail-container img.favorite-photo {
+    max-width: 80%;
+    height: auto;
+  }
+  .image-detail-story {
+    margin-top: 1.5rem;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .image-detail-container {
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    gap: 1.5rem;
+  }
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .image-detail-container {
+    max-width: 700px;
+  }
+  
+}
