@@ -61,3 +61,34 @@ main {
   line-height: 1.8;
   margin-bottom: 2.5rem;
 }
+
+footer {
+  background: #22223b;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+footer a {
+  color: #9a8c98;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.page-flex {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure main content grows to fill space */
+.page-flex main {
+  flex: 1;
+}
